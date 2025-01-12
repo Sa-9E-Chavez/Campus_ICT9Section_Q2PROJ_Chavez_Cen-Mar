@@ -1,0 +1,75 @@
+.whole {
+	justify-content: space-around;
+	display: flex;
+	font-family: cursive;
+}
+
+body {
+	background-image: url('https://i0.wp.com/farm5.staticflickr.com/4305/36256828775_ecb7626e7b_b.jpg?resize=1024%2C683&quality=89&ssl=1');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	border-color: black;
+	border-radius: 5px;
+	border: 5px, solid;
+}
+
+.carousel-caption {
+	padding: 15px;
+	border: 5px, solid;
+	border-radius: 5px;
+	background-color: slategray;
+	border-color: black;
+}
+
+.header {
+	background-color: saddlebrown;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.content {
+	padding: 20px;
+	background-color: sandybrown; 
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	opacity: 0.9;
+}
+
+h1, h4{
+	text-align: center;
+}
+
+h1 {
+	padding: 20px;
+	border: 5px, solid;
+	border-radius: 5px;
+	background-color: lightcoral;
+	width: 30%;
+	margin: auto;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	border: 5px, solid;
+	padding: 20px;
+	background-color: sandybrown;
+	border-radius: 5px;
+	width: 40%;
+	margin: auto;
+}
